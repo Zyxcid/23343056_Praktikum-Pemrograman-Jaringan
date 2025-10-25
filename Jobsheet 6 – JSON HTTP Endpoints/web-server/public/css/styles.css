@@ -1,0 +1,123 @@
+h1 {
+  color: grey;
+}
+img {
+  width: 250px;
+}
+
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+.portrait {
+  width: 250px;
+}
+input {
+  border: 2px solid #cccccc;
+  padding: 8px;
+  width: 300px;
+}
+button {
+  cursor: pointer;
+  border: 2px solid #cccccc;
+  background: gray;
+  color: white;
+  padding: 8px;
+}
+
+.about-section {
+  display: flex; /* Mengaktifkan layout fleksibel (horizontal) */
+  flex-direction: column;
+  justify-content: space-between; /* Memberi jarak antara kiri dan kanan */
+  align-items: center; /* Menyelaraskan vertikal */
+  gap: 3rem; /* Jarak antar kolom */
+}
+
+.faq-section,
+.about-section,
+.search-section {
+  background-color: #f0f8ff;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tentang-aplikasi,
+.tentang-saya {
+  flex: 1;
+}
+
+.tentang-saya-content {
+  display: flex;
+}
+
+.foto-saya {
+  width: 20vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto-saya:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.tentang-sosial {
+  display: flex;
+  justify-content: center; /* Biar icon di tengah */
+  align-items: center;
+  gap: 1.5rem; /* Jarak antar icon */
+  margin-top: 2rem;
+}
+
+.faq-list details {
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.faq-list summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-list p {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,61 @@
+<html lang="id">
+  <head>
+    {{> htmlHead}}
+    <title>{{judul}}</title>
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <section class="faq-section">
+        <h2>FAQ (Frequently Asked Questions)</h2>
+        <p class="intro-text">
+          Berikut beberapa pertanyaan yang sering diajukan terkait penggunaan aplikasi ini. Jika kamu mengalami kendala lain, jangan ragu untuk menghubungi kami.
+        </p>
+
+        <div class="faq-list">
+          <details>
+            <summary>Bagaimana cara menggunakan aplikasi ini?</summary>
+            <p>
+              Cukup ketikkan nama lokasi (misalnya: "Padang" atau "Jakarta") pada kolom pencarian,
+              lalu tekan tombol <strong>Cari</strong>. Aplikasi akan menampilkan cuaca saat ini di lokasi tersebut.
+            </p>
+          </details>
+
+          <details>
+            <summary>Dari mana data cuaca diambil?</summary>
+            <p>
+              Aplikasi ini menggunakan data dari <strong>WeatherStack API</strong> untuk informasi cuaca
+              dan <strong>Positionstack API</strong> untuk data lokasi.
+            </p>
+          </details>
+
+          <details>
+            <summary>Mengapa hasil cuaca terkadang tidak muncul?</summary>
+            <p>
+              Hal itu bisa terjadi karena koneksi internet tidak stabil, lokasi tidak ditemukan,
+              atau server API sedang sibuk. Coba beberapa saat lagi atau periksa ejaan nama tempatmu.
+            </p>
+          </details>
+
+          <details>
+            <summary>Apakah aplikasi ini gratis digunakan?</summary>
+            <p>
+              Ya, aplikasi ini sepenuhnya gratis untuk digunakan dalam skala pribadi atau pembelajaran.
+            </p>
+          </details>
+
+          <details>
+            <summary>Bisakah saya menyarankan fitur baru?</summary>
+            <p>
+              Tentu! Kamu bisa menghubungi pengembang melalui halaman “Tentang” untuk memberikan saran atau umpan balik.
+            </p>
+          </details>
+        </div>
+      </section>
+
+    </div>
+    {{> footer}}
+  </body>
+</html>
